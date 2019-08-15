@@ -2,12 +2,11 @@
     "manifest_version": 2,
     "name": "mySkip",
     "description": "Extension for automatically skipping video ads and closing banner ads on YouTube",
-    "version": "1.0",
+    "version": "1.1",
     "content_scripts": [
         {
-            "matches": ["https://www.youtube.com/watch?v=*"],           
-            "js": ["main.js"],
-            "run_at": "document_end"
+            "matches": ["*://*.youtube.com/*"],           
+            "js": ["main.js"]
         }
     ],
     "icons": {
