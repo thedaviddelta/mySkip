@@ -10,6 +10,6 @@ So basically my script uses an observer to detect any change on the YouTube page
 
 ## Download
 
-You can download this extension for [Chrome](https://chrome.google.com/webstore/detail/myskip/ohmcfchlgaajmendoliochefcnbhdibb), [Firefox](https://addons.mozilla.org/es/firefox/addon/myskip/) and [Opera](https://addons.opera.com/es/extensions/details/myskip/) from their addon stores.
+You can download this extension for [Chrome](https://chrome.google.com/webstore/detail/myskip/ohmcfchlgaajmendoliochefcnbhdibb), [Firefox](https://addons.mozilla.org/es/firefox/addon/myskip/), [Opera](https://addons.opera.com/es/extensions/details/myskip/) and [Edge](https://microsoftedge.microsoft.com/addons/detail/cfhhnaljcadcagpckjeodebkjghfjfgh) from their addon stores.
 
 <img src="banner.png" width="75%">
