@@ -1,11 +1,8 @@
 new MutationObserver(() => {
-    const skipButton = document.getElementsByClassName("ytp-ad-skip-button-container")[0];
-    const closeButton = document.getElementsByClassName("ytp-ad-overlay-close-button")[0];
+    const skipButton = document.querySelector(".ytp-ad-skip-button-container");
+    const closeButton = document.querySelector(".ytp-ad-overlay-close-button");
 
-    if (skipButton)
-        skipButton.click();
-    else if (closeButton)
-        closeButton.click();
+    skipButton?.click() ?? closeButton?.click();
 }).observe(document.body, {
     childList: true,
     subtree: true
